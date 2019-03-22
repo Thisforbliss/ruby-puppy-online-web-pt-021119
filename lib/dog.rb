@@ -19,5 +19,6 @@ people = rows.collect do |row|
   person.company = company
   person
   binding.pry
+  end
 end
 people
